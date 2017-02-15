@@ -1,0 +1,492 @@
+@media screen and (min-width: 1165px) {
+
+	/*-----------------------------------Menu-----------------------------------------------------*/
+	
+	header {
+		background: rgba(0,0,300,0.7);
+		width: 100%;
+		position: fixed;
+		z-index: 100;
+	}
+	nav {
+  		float: right;
+	} 
+	nav ul {
+  		list-style: none;
+  		overflow: hidden;
+	} 
+	nav ul li {
+  		float: left;
+  		font-family: "Times New Roman", sans-serif;
+  		font-size: 16px;
+  		font-weight: bold;
+	} 
+	nav ul li a {
+  		display: block;
+  		padding: 20px;
+  		color: #fff;
+  		text-decoration: none;
+	} 
+	nav ul li:hover {
+  		background: #33CCCC;
+	}
+	#myName {
+		float: left;
+		display: block;
+  		padding: 10px;
+  		padding-left: 200px;
+  		color: #000066;
+	}	
+
+	/*--------------------------------Background------------------------------------------------*/
+
+	body {
+		background:url(pictures/Background.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;		
+		background-size: cover;
+	}
+		
+
+	/*--------------------------------Content------------------------------------------------*/
+
+	.contenido {
+  		padding-top: 70px;
+	}
+
+	* {
+		padding: 0;
+		margin: 0;
+	}
+
+
+	#divHome {			
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		font-weight: bold;
+		opacity: 0.8;
+		z-index: 1;
+		margin-top: 60px;
+	}
+	#homeTec {	
+		width: 50%;
+		height: 200px;		
+		padding-top: 115px;
+		font-family: "Times New Roman", serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;  
+  		color: black;
+  		z-index: 3;
+  		position: absolute;
+  		left: 25%;  		
+	}
+	#homeImag{
+		width: 1000px;
+		height: 600px;
+		z-index: 2;
+		left: -15%;
+		position: absolute;
+		top: -25%;
+	}
+	#imagHome {
+		width: 1375px;
+		height: 600px;		
+	}
+
+
+
+
+	/*--------------------------------WhoIAm------------------------------------------------*/
+
+	#divTec {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		opacity: 0.8;
+		z-index: 1;
+		margin-top: 115px;
+	}
+	#tecImag{
+		width: 1000px;
+		height: 500px;
+		position: absolute;
+		opacity: 0.5;
+		left: 2%;
+		z-index: 2;
+	}
+	#imag0 {
+		width: 1300px;
+		height: 500px;
+		border-radius: 25%;
+	}
+	#tec {	
+		width: 44%;
+		height: 200px;
+		padding-top: 165px;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;  
+  		color: white;
+  		position: absolute;
+  		left: 27%;
+  		z-index: 3;		
+	}
+
+
+
+
+	#divCre {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		position: relative;		
+		opacity: 0.8;
+		margin-top: 115px;
+	}
+	#creImag{
+		width: 600px;
+		height: 400px;
+		float: left;
+	}
+	#imagCre {
+		width: 600px;
+		height: 400px;		
+	}
+	#creative {	
+		width: 44%;
+		height: 200px;
+		padding-top: 115px;
+		float: left;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;
+  		color: white;  		
+	}
+
+
+
+
+	
+	#divWeb {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		opacity: 0.8;
+		z-index: 1;
+		margin-top: 15px;
+	}
+	#webImag{
+		width: 600px;
+		height: 400px;
+		float: left;
+	}
+	#imag1 {
+		width: 600px;
+		height: 400px;
+	}
+	#webDev {	
+		width: 44%;
+		height: 200px;
+		padding-top: 115px;
+		float: left;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;  
+  		color: white; 		
+	}
+
+
+
+
+	#divAndroid {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		position: relative;	
+		opacity: 0.8;
+	}
+	#androidImag{
+		width: 600px;
+		height: 400px;
+		float: left;
+	}
+	#imag2 {
+		width: 600px;
+		height: 400px;		
+	}
+	#androidDev {	
+		width: 44%;
+		height: 200px;
+		padding-top: 115px;
+		float: left;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;
+  		color: white;  		
+	}
+
+
+	/*--------------------------------hobbies------------------------------------------------*/
+
+	#divHob {			
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		font-weight: bold;
+		opacity: 0.8;
+		z-index: 1;
+		margin-top: 100px;
+	}
+	#hob {	
+		width: 50%;
+		height: 200px;		
+		padding-top: 115px;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;  
+  		color: white;
+  		z-index: 3;
+  		position: absolute;
+  		left: 25%;  		
+	}
+	#hobImag{
+		width: 800px;
+		height: 400px;
+		position: absolute;
+		opacity: 0.5;
+		left: 10%;
+		z-index: 2;
+	}
+	#imagHob {
+		width: 800px;
+		height: 400px;	
+		border-radius: 25%;	
+	}
+
+
+
+	#divChess {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		position: relative;		
+		opacity: 0.8;
+		margin-top: 135px;
+	}
+	#chessImag{
+		width: 600px;
+		height: 400px;
+		float: left;
+	}
+	#imagChess {
+		width: 600px;
+		height: 400px;		
+	}
+	#chess {	
+		width: 44%;
+		height: 200px;
+		padding-top: 135px;
+		float: left;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;
+  		color: white;  		
+	}
+
+
+
+
+	#divVg {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		opacity: 0.8;
+		z-index: 1;
+		margin-top: 115px;
+	}
+	#vgImag{
+		width: 500px;
+		height: 400px;
+		float: right;
+	}
+	#imagVg {
+		width: 500px;
+		height: 400px;
+	}
+	#vg {	
+		width: 44%;
+		height: 200px;
+		padding-top: 115px;
+		float: left;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;  
+  		color: white; 		
+	}
+
+
+	#divRun {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		position: relative;		
+		opacity: 0.8;
+		margin-top: 115px;
+	}
+	#runImag{
+		width: 600px;
+		height: 400px;
+		float: left;
+	}
+	#imagRun {
+		width: 600px;
+		height: 400px;		
+	}
+	#run {	
+		width: 44%;
+		height: 200px;
+		padding-top: 115px;
+		float: left;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;
+  		color: white;  		
+	}
+
+
+
+
+	#divCam {	
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		font-weight: bold;
+		opacity: 0.8;
+		z-index: 1;
+		margin-top: 10px;
+	}
+	#camImag{
+		width: 500px;
+		height: 500px;
+		float: right;
+	}
+	#imagCam {
+		width: 500px;
+		height: 500px;
+	}
+	#cam {	
+		width: 44%;
+		height: 200px;
+		padding-top: 150px;
+		float: left;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;  
+  		color: white; 		
+	}
+
+
+
+
+
+
+	#divCon {			
+		width: 80%;
+		height: 400px;
+		margin: 0 auto;
+		text-align: left;
+		position: relative;
+		font-weight: bold;
+		opacity: 0.8;
+		z-index: 1;
+		margin-top: 150px;
+		margin-bottom: 80px;
+	}
+	#con {	
+		width: 50%;
+		height: 200px;		
+		padding-top: 145px;
+		font-family: Arial, serif;
+  		font-size: 45px;
+  		font-weight: bold;
+  		text-align: center;  
+  		color: black;
+  		z-index: 3;
+  		position: absolute;
+  		left: 23%;  		
+	}
+	#conImag{
+		width: 800px;
+		height: 400px;
+		position: absolute;
+		opacity: 0.5;
+		left: 10%;
+		z-index: 2;
+	}
+	#imagCon {
+		width: 800px;
+		height: 400px;	
+		border-radius: 25%;	
+	}
+
+
+
+	/*--------------------------------footer------------------------------------------------*/
+
+	#footer {		
+		background: black;
+		display: block;	
+		clear: both;
+	    position: relative;
+	    z-index: 10;
+	    height: 75px;
+	    color: white;
+	}
+	#author {
+		width: 30%;
+		height: 40%;
+		float: left;
+		padding-left: 50px;
+		padding-top: 30px;
+	}
+	#info {
+		width: 30%;
+		height: 40%;
+		float: right;
+		padding-top: 15px;
+	}
+
+
+
+}
